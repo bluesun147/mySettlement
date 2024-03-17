@@ -156,6 +156,7 @@ public class SettlementJobConfig {
                     .memberId(distributorId)
                     .settleDate(LocalDateTime.now())
                     .fee(distributorFee)
+                    .revenue(revenue)
                     .build();
 
             log.info("distributorSettlement.getFee() = {}", distributorSettlement.getFee());
@@ -179,6 +180,7 @@ public class SettlementJobConfig {
                     .memberId(ostFeignResponse.getSingerId())
                     .settleDate(LocalDateTime.now())
                     .fee(singerFee)
+                    .revenue(revenue)
                     .build();
 
             settlementList.add(singerSettlement);
@@ -199,6 +201,7 @@ public class SettlementJobConfig {
                     .memberId(producerFeignResponse.getProducerId())
                     .settleDate(LocalDateTime.now())
                     .fee(producerFee)
+                    .revenue(revenue)
                     .build();
 
             settlementList.add(producerSettlement);
@@ -210,6 +213,7 @@ public class SettlementJobConfig {
                     .memberId(0L)
                     .settleDate(LocalDateTime.now())
                     .fee(fee)
+                    .revenue(revenue)
                     .build();
 
             settlementList.add(companySettlement);

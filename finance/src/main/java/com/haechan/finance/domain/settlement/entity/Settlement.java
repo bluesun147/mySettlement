@@ -1,5 +1,6 @@
 package com.haechan.finance.domain.settlement.entity;
 
+import com.haechan.finance.domain.revenue.entity.Revenue;
 import com.haechan.finance.domain.settlement.dto.MemberType;
 import com.haechan.finance.global.BaseTime;
 import jakarta.persistence.*;
@@ -43,13 +44,18 @@ public class Settlement extends BaseTime {
     @Column
     private Double fee;
 
+    @ManyToOne
+    @JoinColumn(name = "revenue_id")
+    private Revenue revenue;
+
     @Builder
-    public Settlement(Long contractId, MemberType type, Long memberId, LocalDateTime settleDate, Double fee) {
+    public Settlement(Long contractId, MemberType type, Long memberId, LocalDateTime settleDate, Double fee, Revenue revenue) {
         this.contractId = contractId;
         this.type = type;
         this.memberId = memberId;
         this.settleDate = settleDate;
         this.fee = fee;
+        this.revenue = revenue;
     }
 
 }
