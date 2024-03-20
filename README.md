@@ -1,34 +1,42 @@
 
 ## 👋 Project Overview
 
-Spring Batch를 사용한 my 정산 시스템 구현
+Spring Batch를 사용한 음원 콘텐츠 관련 정산 MSA 시스템 구현
+
+<h2 id="features"> 💡 프로젝트 소개 </h2>
 
 https://www.notion.so/My-Settlement-c6fdff2f8b284657913a9f308ceb15de
 
 <h2 id="features"> ✨ Key Features </h2>
 
+- MSA
+  - [monolithic 구조로 구현 후 전환](https://velog.io/@bluesun147/series/MSA-%EC%A0%84%ED%99%98)
+    
+- Spring Batch
+  - [Spring Batch 이용한 월별 자동 정산](https://velog.io/@bluesun147/spring-batch)
 
+- 동시성 문제
+  - [Pessimistic Lock을 이용한 동시성 문제 해결](https://velog.io/@bluesun147/MSA%EC%97%90%EC%84%9C%EC%9D%98-%EB%8F%99%EC%8B%9C%EC%84%B1)
 
-<h2 id="expectation"> ✨ Expectations </h2>
- 
-
+- Docker + ECS
+  - [Docker와 ECS를 활용한 CI/CD](https://velog.io/@bluesun147/Docker-ECS)
  
 <h2 id="stacks"> 🛠️  Tech Stacks </h2>
 
 
 ### 🚉 Platform
 
-- [Docker](https://www.docker.com/)
-- [Google Cloud Platform](https://cloud.google.com/)
-- [Google Cloud SQL](https://cloud.google.com/sql)
-- [Google Cloud Storage](https://cloud.google.com/storage)
+- Docker
+- AWS ECR
+- AWS ECS
+- Cloudtype DB
 
 ### 🦾 Server
 
-- [JAVA 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-- [Spring Boot v2.7.9](https://spring.io/projects/spring-boot)
-- [MySQL](https://www.mysql.com/)
-- [JPA](https://spring.io/projects/spring-data-jpa)
-- [Spring Security](https://spring.io/projects/spring-security)
-- [JWT](https://jwt.io/)
-
+- JAVA 17
+- Spring Boot v3.2.3
+- MariaDB
+- JPA
+- Spring Batch
+- Spring Cloud
+- Eureka
