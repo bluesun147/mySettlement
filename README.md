@@ -15,7 +15,7 @@
   - [monolithic 구조로 구현 후 전환](https://velog.io/@bluesun147/series/MSA-%EC%A0%84%ED%99%98)
     
 - Spring Batch
-  - [Spring Batch 이용한 월별 자동 정산](https://velog.io/@bluesun147/spring-batch)
+  - [Spring Batch 이용한 월별 자동 정산](https://velog.io/@bluesun147/spring-batch-u0yaoyhr)
 
 - 동시성 문제
   - [Pessimistic Lock을 이용한 동시성 문제 해결](https://velog.io/@bluesun147/MSA%EC%97%90%EC%84%9C%EC%9D%98-%EB%8F%99%EC%8B%9C%EC%84%B1)
