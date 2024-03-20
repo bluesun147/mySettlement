@@ -1,11 +1,13 @@
 
 ## 👋 Project Overview
 
-Spring Batch를 사용한 음원 콘텐츠 관련 정산 MSA 시스템 구현
+**Spring Batch를 사용한 음원 콘텐츠 관련 정산 MSA 시스템 구현**
 
 <h2 id="features"> 💡 프로젝트 소개 </h2>
 
-https://www.notion.so/My-Settlement-c6fdff2f8b284657913a9f308ceb15de
+소개 페이지 : https://satin-loganberry-da5.notion.site/My-Settlement-c6fdff2f8b284657913a9f308ceb15de?pvs=4
+
+시연 영상 : https://youtu.be/uOXLv-qj7MY
 
 <h2 id="features"> ✨ Key Features </h2>
 
