@@ -1,7 +1,9 @@
 
 ## 👋 Project Overview
 
-**Spring Batch를 사용한 음원 콘텐츠 관련 정산 MSA 시스템 구현**
+**Spring Batch를 사용한 음원 콘텐츠 관련 정산 MSA 시스템 구현** </br></br>
+v1.0 Monolithic Architecture : Release/21-v1.0-Monolithic </br></br>
+v2.0 MSA : Release/21-v2.0-MSA_local 
 
 <h2 id="features"> 💡 프로젝트 소개 </h2>
 
@@ -9,8 +11,9 @@
 
 시연 영상 : https://youtu.be/uOXLv-qj7MY
 
-![구조도](https://github.com/bluesun147/mySettlement/assets/86697585/54541f87-efeb-4697-9705-9955a39dfd8a)
-![배포과정](https://github.com/bluesun147/mySettlement/assets/86697585/f0e7f7cb-ebb4-4880-898f-8988171636a0)
+![구조도](https://github.com/bluesun147/mySettlement/assets/86697585/d71023cc-365c-4d8f-b2c5-f755565926cb)
+![배포과정](https://github.com/bluesun147/mySettlement/assets/86697585/b695eb3e-cf1c-489b-8d11-1efdcbee236d)
+
 
 <h2 id="features"> ✨ Key Features </h2>
 
